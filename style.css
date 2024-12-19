@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  background-image: url('img/numberBlocks.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+  margin: 20vh 25vw;
+  min-height: 100%;
+}
+
+h1 {
+  text-shadow: 3px 2px #66255b;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h6 {
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.body {
+  background-color: #aa3e98;
+  border-radius: 50px;
+  padding: 30px 40px;
+  box-shadow: 20px 20px #66255b;
+}
+
+#message-container {
+  font-size: 22px;
+  margin-top: 25px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+input {
+  padding: 10px 0px;
+  font-size: 24px;
+  height: 58px;
+  width: 100px;
+  color: #5e6a73;
+  border: inset 5px #66255b;
+  border: inset 5px #BDD4E7;
+  border-radius: 45px;
+}
+
+button {
+  background-color: #883179;
+  background-color: #E7ECEF;
+  color: white;
+  color: #5e6a73;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 45px;
+  border: outset 5px #66255b;
+  border: outset 5px #BDD4E7;
+  padding: 15px;
+  margin-left: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.you {
+  margin-top: 20px;
+  font-family: 'Style Script', cursive;
+  font-size: 35px;
+}
+
+.play-again {
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 10px 80px;
+}
